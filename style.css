@@ -133,7 +133,7 @@ padding: 20px 0px 0px;
   padding-top: 30%;
   }
 }
-@media only screen and (min-width=1000px){
+@media only screen and (min-width:1000px;){
   .wrapper{
     width: 1000px;
   }
@@ -176,7 +176,7 @@ font-size: 16px;
 color: #222;
 line-height: 24px;
 }
-.container{
+.container {
   display: flex;
 }
 .column{
@@ -184,8 +184,8 @@ line-height: 24px;
   padding: 15px;
   border: 1px solid #ddd;
 }
-@media only screen and (max-width=768px){
+@media only screen and (max-width:768px;){
   .column{
-    width: 1000px;
+    width: 768px;
   }
 }
