@@ -123,17 +123,20 @@ input, select {
     width: 600px;
     margin: 0 auto;
 }
-.h2 {
+.h1 {
 padding: 20px 0px 0px;
 }
 .p {
 padding: 20px 0px 0px;
 }
+.button{
+  padding: 0 10 0 10px;
+}
 .img-me {
   padding-top: 30%;
   }
 }
-@media only screen and (min-width:1000px;){
+@media only screen and (min-width:100px;){
   .wrapper{
     width: 1000px;
   }
